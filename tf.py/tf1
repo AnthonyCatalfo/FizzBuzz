@@ -1,0 +1,57 @@
+def tf(numbers):
+    e = [0,1,2,3]
+    for i in e:
+        for j in e:
+            for k in e:
+                for l in e:
+                    if(i!=j and i!=k and i!=l and j!=k and j!=l and k!=l):          
+                        print ([numbers[i],numbers[j],numbers[k],numbers[l]])                      
+tf([8,1,2,8])
+def add(a, b):
+    return a + b
+
+
+def sub(a, b):
+    return a - b
+
+
+def mult(a, b):
+    return a * b
+
+
+def div(a, b):
+    if (b == 0):
+
+        return 100000000
+    return a / b
+
+
+#def check(numbers):
+
+
+def tf(numbers):
+    opp = []
+    e = [add, sub, mult, div]
+    #print(e[0](3,4))
+    for i in e:
+        for j in e:
+            for k in e:
+                if(i!=j and i!=k and j!=k):
+                    opp.append([i, j, k])
+                    if (i(j(k(numbers[0], numbers[1]), numbers[2]), numbers[3])) == 24:
+                    #return [numbers[0],i,numbers[1]),j,numbers[2]),k,numbers[3])]
+                            return(numbers[0], k.__name__, numbers[1],
+                                  j.__name__,numbers[2], i.__name__, numbers[3])
+    #print(opp)
+
+def tfh(numbers):
+    e = [0,1,2,3]
+    for i in e:
+        for j in e:
+            for k in e:
+                for l in e:
+                    if(i!=j and i!=k and i!=l and j!=k and j!=l and k!=l and tf([numbers[i],numbers[j],numbers[k],numbers[l]])!=None):
+                        printtf([numbers[i],numbers[j],numbers[k],numbers[l]])          
+                                              
+
+tfh([2,3,8,3])
