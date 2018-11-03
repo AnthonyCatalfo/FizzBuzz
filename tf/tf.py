@@ -41,11 +41,7 @@ def tf(numbers):
                     if(split==24):
                         splitStr='('+str(numbers[0])+' '+i.__name__+' '+str(numbers[1])+')'+k.__name__+'('+str(numbers[2])+' '+j.__name__+' '+str(numbers[3])+')'+' split'
                         solutions.append(splitStr)
-                       
-                                 
-                    
-           
-    
+                                   
     return solutions
 
 
